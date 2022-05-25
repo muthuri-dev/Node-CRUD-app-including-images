@@ -1,0 +1,27 @@
+{
+  "name": "node-crud-app-including-images",
+  "version": "1.0.0",
+  "description": "Node CRUD operations using mongodb as the database",
+  "main": "connection.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kennedymuthuri/Node-CRUD-app-including-images.git"
+  },
+  "author": "kennedy muthuri",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kennedymuthuri/Node-CRUD-app-including-images/issues"
+  },
+  "homepage": "https://github.com/Kennedymuthuri/Node-CRUD-app-including-images#readme",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "mongoose": "^6.3.4",
+    "multer": "^1.4.4",
+    "nodemon": "^2.0.16"
+  }
+}
