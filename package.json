@@ -4,6 +4,7 @@
   "description": "Node CRUD operations using mongodb as the database",
   "main": "connection.js",
   "scripts": {
+    "dev":"nodemon ./connection.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

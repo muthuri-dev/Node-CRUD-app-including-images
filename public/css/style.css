@@ -1,0 +1,15 @@
+*{
+    margin: 0px;padding: 0px;
+}
+body{
+    display: grid;
+    place-content: center;
+    background-color: rgb(115, 196, 228);
+}
+form{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
