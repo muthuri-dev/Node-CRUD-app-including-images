@@ -1,0 +1,17 @@
+<body>
+    <h2>home page</h2>
+    <%data.forEach(function(detail){ %> 
+        <h5> <%=detail.name%> </h5>
+            <h5><%=detail.email %> </h5>
+      <!--  <img src="<%=detail.image%> " alt="">-->
+        <button style="background-color:red;"><a href="/delete/<%=detail.id %> ">DELETE</a></button>
+   <%})%>
+</body>
+<style>
+    button{
+        width: 80px;
+        height: 35px;
+        border: 1px solid;
+        border-radius: 9px;
+    }
+</style>

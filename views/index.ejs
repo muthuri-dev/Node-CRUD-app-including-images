@@ -4,24 +4,27 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title><% -title %> </title>
+    <title><%-title%> </title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <% -include('partials/header') %> 
-    <h3>Node and Mongodb CRUD application</h3>
+    <%-include('partials/header.ejs') %> 
+   <!-- <h3>Node and Mongodb CRUD application</h3>-->
     <p>It also includes images CRUD operations</p>
     <div id="container">
-        <form action="/"method="POST"enctype="multpart/form/data">
+        <form action="/upload"method="POST"enctype="multpart/form-data">
             <input type="text"placeholder="username"name="name">
             <input id="email"type="email"placeholder="example@gmail.com"name="email">
             <input id="password" type="password"placeholder="password" name="password">
-            <input type="file">
+            <input type="file"name="image">
             <textarea name="text" id="" cols="30" rows="10"></textarea>
             <button id="btn"type="submit">SUBMIT</button>
         </form>
+        <div class="container">
+            
+        </div>
     </div>
-    <% -include('partials/footer') %> 
+    <%-include('partials/footer.ejs') %> 
     <script src="javascript/script.js"></script>
 </body>
 </html>

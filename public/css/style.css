@@ -13,3 +13,13 @@ form{
     justify-content: center;
     padding: 10px;
 }
+input{
+    width: 250px;
+    height: 50px;
+    border: 1px solid;
+    border-radius: 10px;
+    margin: 15px;
+}
+.container{
+    background-color: rgb(112, 202, 190);
+}
